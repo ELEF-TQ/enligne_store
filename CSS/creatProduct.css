@@ -1,0 +1,42 @@
+.AddProduct{
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-gap: 20px;
+    width: 47%;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+.AddProduct input{
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(206, 195, 195);
+    font-size: 13px;
+}
+.AddProduct select {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid rgb(206, 195, 195) ;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px;
+}
+.sub-btn {
+    color: black;
+    font-family: fantasy;
+    font-size: 26px;
+    height: 10px;
+    text-align: center;
+    line-height: 10px;
+    cursor: pointer;
+}
+.sub-btn:hover{
+    opacity: 0.8;
+}
+.AddProduct input:focus , .AddProduct select:focus{
+    outline: none;
+    border: 2px blue solid;
+    
+}

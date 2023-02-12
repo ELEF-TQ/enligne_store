@@ -1,0 +1,15 @@
+.item-details {
+    display: flex;
+}
+
+.item-details img{
+    border:  1px black solid;
+    border-radius: 18px;
+    margin: 20px;
+    padding: 5px;   
+}
+
+.item-details h2{
+    margin: 20px  20px 20px;
+    
+}

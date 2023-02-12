@@ -1,0 +1,146 @@
+.all-products{
+    width: 70%;
+    margin: 20px 0;
+    height: 500px;
+}
+.product-item{
+    display: flex;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    
+}
+.product-item img{
+    width: 150px;
+    height: 130px;
+    margin: 0 10px -4px 0;
+    
+    
+}
+.product-actions{
+    flex: 1;
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-actions .add-to-cart{
+    display: block;
+    margin-left: auto;
+    background-color:green ;
+    width: auto;
+    height: 36px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+.product-actions .favourite{
+    cursor: pointer;
+    display: block;
+    width: 40px;
+    padding: 10px;
+    margin: 10px 10px 3px 10px;
+    margin-left: auto;
+    color: red;
+}
+.product-actions .favourite2{
+    cursor: pointer;
+    display: block;
+    width: 40px;
+    padding: 10px;
+    margin: 10px 10px 3px 10px;
+    margin-left: auto;
+    color:black;
+
+}
+
+nav ul#user-info li i{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 11px;
+    cursor: pointer;
+}
+li.favourite {
+    font-size: 17px;
+    margin: 0 7px 0 7px;
+}
+
+li.shopCart {
+    margin: 0px 53px 0px -9px;
+}
+nav ul#user-info {
+    position: relative;
+}
+nav ul#user-info .badge{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color:crimson;
+    border-radius: 0 50% 0 50%;
+    line-height: 13px;
+    text-align: center;
+    color: white;
+    bottom: 14px;
+    right: 160px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: none;
+}
+
+.cart-products{
+    position: absolute;
+    left: 266px;
+    top: 55px;
+    background-color: rgb(247 244 244);
+    width: 137px;
+    text-align: center;
+    padding: 10px;
+    line-height: 20px;
+    font-size: 14px;
+    border: solid 1px green;
+    display: none;
+}
+.cart-products a{
+    display: block;
+    background-color: green;
+    width: 100%;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    border: 1px black solid;
+    border-radius: 6px;
+}
+
+.product-desc h2{
+    cursor: pointer;
+    margin: 5px 0 10px 10px;
+    color: green;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+
+.search-input{
+    width: 70%;
+    height: 8px;
+    padding: 18px;
+    margin-top: 20px;
+
+}
+
+
+
+.add-btn i{
+    position: fixed;
+    bottom: 53px;
+    right: 92px;
+    font-size: 52px;
+    transition: color 0.1s, opacity 0.1s;
+}
+.add-btn i:hover{
+    color: red;
+    opacity: 0.9;
+
+}
